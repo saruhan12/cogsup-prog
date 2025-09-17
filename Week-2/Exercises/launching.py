@@ -8,9 +8,9 @@ exp = design.Experiment(name = "Rectangles 200")
 control.initialize(exp)
 
 # Create a 50px-radius blue Rectangle 
-circle1 = stimuli.Rectangle(size=(50,50),colour=(0,0,255),position=(100,0))
+circle1 = stimuli.Rectangle(size=(50,50),colour=(0,255,0),position=(0,0))
 
-circle2 = stimuli.Rectangle(size=(50,50),colour=(255,0,0),position=(-100,0))
+circle2 = stimuli.Rectangle(size=(50,50),colour=(255,0,0),position=(-400,0))
 # Start running the experiment
 control.start(subject_id=1)
 
@@ -18,6 +18,7 @@ control.start(subject_id=1)
 circle1.present(clear=True, update=False)
 
 circle2.present(clear=False, update=True)
+circle2.reposition(new_position=())
 # Leave it on-screen until a key is pressed
 exp.keyboard.wait()
 

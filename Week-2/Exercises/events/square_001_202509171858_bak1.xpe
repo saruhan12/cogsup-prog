@@ -1,0 +1,28 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Sep 17 2025 18:58:19
+#sha1: 7aaae8
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+11708,design,log,
+#design: #exp: Rectangle
+#design: block_cnt,block_id,trial_cnt,trial_id
+11708,design,logged,
+11708,Experiment,started
+11711,Stimulus,presented,0
+12211,stderr,received,'Traceback (most recent call last):'
+12211,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-2/Exercises/square.py", line 26, in <module>'
+12212,stderr,received,'    circle.present(clear=True, update=True)'
+12212,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1171, in present'
+12212,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+12212,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1059, in preload'
+12212,stderr,received,'    self._get_surface(),'
+12212,stderr,received,'    ^^^^^^^^^^^^^^^^^^^'
+12212,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 490, in _get_surface'
+12212,stderr,received,'    tmp = self._create_surface()'
+12212,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^'
+12212,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_rectangle.py", line 237, in _create_surface'
+12212,stderr,received,'    surface = pygame.surface.Surface('
+12212,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^'
+12212,stderr,received,'ValueError: size needs to be (number width, number height)'

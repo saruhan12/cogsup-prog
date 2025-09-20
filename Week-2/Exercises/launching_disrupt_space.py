@@ -24,7 +24,8 @@ circle_red.present(clear=False, update=True)
 #wait for a second 
 exp.clock.wait(1000)
 #start the run of the red rectangle
-while circle_red.position[0] + 50 != circle_green.position[0]:
+#anything closer than 100 pixels feels causal
+while circle_red.position[0] + 150 != circle_green.position[0]:
     #move the red 
     circle_red.move((2,0))
     #update the board

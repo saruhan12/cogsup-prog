@@ -32,8 +32,10 @@ while circle_red.position[0] + 50 != circle_green.position[0]:
     circle_green.present(clear=False, update=True)
 
 #start the run of the green rectangle
+#3 times faster than the red rectangle
+#which still feels causal
 while circle_green.position[0] < 350:
-    circle_green.move((2,0))
+    circle_green.move((6,0))
     circle_red.present(clear=True, update=False)
     circle_green.present(clear=False, update=True)
 

@@ -30,7 +30,9 @@ while circle_red.position[0] + 50 != circle_green.position[0]:
     #update the board
     circle_red.present(clear=True, update=False)
     circle_green.present(clear=False, update=True)
-
+#wait for some time to disrupt causality 
+#86ms still feels non-causal
+exp.clock.wait(86)
 #start the run of the green rectangle
 while circle_green.position[0] < 350:
     circle_green.move((2,0))

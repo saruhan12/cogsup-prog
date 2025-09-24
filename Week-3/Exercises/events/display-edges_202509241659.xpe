@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 16:59:21
+#sha1: 92fed8
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+469,stderr,received,'Traceback (most recent call last):'
+469,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/display-edges.py", line 12, in <module>'
+469,stderr,received,'    square1 = stimuli.Rectangle(size=(io.Screen.display_resolution[0]*0.05,io.Screen.display_resolutions[0]*0.05),colour=(0,255,0),position=(0,0))'
+469,stderr,received,'                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^'
+469,stderr,received,"TypeError: 'property' object is not subscriptable"

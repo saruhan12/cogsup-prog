@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 17:07:28
+#sha1: 8b201c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+497,Stimulus,created,1,Rectangle,copied from 0
+497,stderr,received,'Traceback (most recent call last):'
+497,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/display-edges.py", line 13, in <module>'
+497,stderr,received,'    square2 = square1.copy().move((exp.screen.display_resolution[0]*0.05+100),0)'
+497,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+497,stderr,received,'TypeError: Visual.move() takes 2 positional arguments but 3 were given'

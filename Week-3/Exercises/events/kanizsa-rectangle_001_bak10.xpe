@@ -1,0 +1,150 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 23:55:32
+#sha1: 97e0c7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+981,design,log,
+#design: #exp: Week3-3
+#design: block_cnt,block_id,trial_cnt,trial_id
+981,design,logged,
+981,Experiment,started
+981,Stimulus,presented,1
+981,Stimulus,presented,2
+981,Stimulus,presented,3
+982,Stimulus,presented,4
+987,Stimulus,presented,0
+1987,Stimulus,presented,6
+1988,Stimulus,presented,7
+1988,Stimulus,presented,8
+1988,Stimulus,presented,9
+1995,Stimulus,presented,5
+2995,Stimulus,presented,11
+2996,Stimulus,presented,12
+2996,Stimulus,presented,13
+2996,Stimulus,presented,14
+3004,Stimulus,presented,10
+4004,Stimulus,presented,16
+4004,Stimulus,presented,17
+4005,Stimulus,presented,18
+4005,Stimulus,presented,19
+4012,Stimulus,presented,15
+5013,Stimulus,presented,21
+5013,Stimulus,presented,22
+5013,Stimulus,presented,23
+5013,Stimulus,presented,24
+5020,Stimulus,presented,20
+6020,Stimulus,presented,26
+6021,Stimulus,presented,27
+6021,Stimulus,presented,28
+6021,Stimulus,presented,29
+6028,Stimulus,presented,25
+7029,Stimulus,presented,31
+7029,Stimulus,presented,32
+7029,Stimulus,presented,33
+7030,Stimulus,presented,34
+7037,Stimulus,presented,30
+8037,Stimulus,presented,36
+8038,Stimulus,presented,37
+8038,Stimulus,presented,38
+8038,Stimulus,presented,39
+8045,Stimulus,presented,35
+9045,Stimulus,presented,41
+9046,Stimulus,presented,42
+9046,Stimulus,presented,43
+9047,Stimulus,presented,44
+9053,Stimulus,presented,40
+10054,Stimulus,presented,46
+10054,Stimulus,presented,47
+10054,Stimulus,presented,48
+10054,Stimulus,presented,49
+10062,Stimulus,presented,45
+11062,Stimulus,presented,51
+11062,Stimulus,presented,52
+11062,Stimulus,presented,53
+11062,Stimulus,presented,54
+11070,Stimulus,presented,50
+12070,Stimulus,presented,56
+12070,Stimulus,presented,57
+12070,Stimulus,presented,58
+12071,Stimulus,presented,59
+12078,Stimulus,presented,55
+13079,Stimulus,presented,61
+13079,Stimulus,presented,62
+13080,Stimulus,presented,63
+13080,Stimulus,presented,64
+13087,Stimulus,presented,60
+14087,Stimulus,presented,66
+14087,Stimulus,presented,67
+14088,Stimulus,presented,68
+14088,Stimulus,presented,69
+14095,Stimulus,presented,65
+15096,Stimulus,presented,71
+15096,Stimulus,presented,72
+15096,Stimulus,presented,73
+15096,Stimulus,presented,74
+15103,Stimulus,presented,70
+16104,Stimulus,presented,76
+16104,Stimulus,presented,77
+16104,Stimulus,presented,78
+16104,Stimulus,presented,79
+16112,Stimulus,presented,75
+17112,Stimulus,presented,81
+17112,Stimulus,presented,82
+17112,Stimulus,presented,83
+17112,Stimulus,presented,84
+17120,Stimulus,presented,80
+18120,Stimulus,presented,86
+18121,Stimulus,presented,87
+18121,Stimulus,presented,88
+18121,Stimulus,presented,89
+18128,Stimulus,presented,85
+19129,Stimulus,presented,91
+19129,Stimulus,presented,92
+19129,Stimulus,presented,93
+19129,Stimulus,presented,94
+19137,Stimulus,presented,90
+20137,Stimulus,presented,96
+20137,Stimulus,presented,97
+20138,Stimulus,presented,98
+20138,Stimulus,presented,99
+20145,Stimulus,presented,95
+21145,Stimulus,presented,101
+21146,Stimulus,presented,102
+21146,Stimulus,presented,103
+21146,Stimulus,presented,104
+21153,Stimulus,presented,100
+22154,Stimulus,presented,106
+22154,Stimulus,presented,107
+22154,Stimulus,presented,108
+22154,Stimulus,presented,109
+22162,Stimulus,presented,105
+23162,Stimulus,presented,111
+23163,Stimulus,presented,112
+23163,Stimulus,presented,113
+23163,Stimulus,presented,114
+23165,Stimulus,presented,110
+24166,Stimulus,presented,116
+24166,Stimulus,presented,117
+24166,Stimulus,presented,118
+24167,Stimulus,presented,119
+24169,Stimulus,presented,115
+25169,Stimulus,presented,121
+25169,Stimulus,presented,122
+25170,Stimulus,presented,123
+25170,Stimulus,presented,124
+25176,Stimulus,presented,120
+26176,Stimulus,presented,126
+26176,Stimulus,presented,127
+26177,Stimulus,presented,128
+26177,Stimulus,presented,129
+26184,Stimulus,presented,125
+26844,stderr,received,'Traceback (most recent call last):'
+26844,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/kanizsa-rectangle.py", line 68, in <module>'
+26844,stderr,received,'    kanizsa_rectangle(scaling=aspect, rec_scale=rec_sc,circ_scale=circ_sc)'
+26844,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/kanizsa-rectangle.py", line 59, in kanizsa_rectangle'
+26844,stderr,received,'    exp.clock.wait(1000)'
+26844,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 154, in wait'
+26844,stderr,received,'    pygame.event.pump()'
+26844,stderr,received,'KeyboardInterrupt'

@@ -1,0 +1,101 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 23:58:14
+#sha1: c1e849
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1777,design,log,
+#design: #exp: Week3-3
+#design: block_cnt,block_id,trial_cnt,trial_id
+1777,design,logged,
+1777,Experiment,started
+1778,Stimulus,presented,1
+1778,Stimulus,presented,2
+1778,Stimulus,presented,3
+1778,Stimulus,presented,4
+1781,Stimulus,presented,0
+2782,Stimulus,presented,6
+2782,Stimulus,presented,7
+2782,Stimulus,presented,8
+2783,Stimulus,presented,9
+2788,Stimulus,presented,5
+3789,Stimulus,presented,11
+3789,Stimulus,presented,12
+3789,Stimulus,presented,13
+3789,Stimulus,presented,14
+3796,Stimulus,presented,10
+4797,Stimulus,presented,16
+4797,Stimulus,presented,17
+4797,Stimulus,presented,18
+4797,Stimulus,presented,19
+4805,Stimulus,presented,15
+5805,Stimulus,presented,21
+5805,Stimulus,presented,22
+5805,Stimulus,presented,23
+5805,Stimulus,presented,24
+5813,Stimulus,presented,20
+6813,Stimulus,presented,26
+6813,Stimulus,presented,27
+6814,Stimulus,presented,28
+6814,Stimulus,presented,29
+6821,Stimulus,presented,25
+7822,Stimulus,presented,31
+7822,Stimulus,presented,32
+7822,Stimulus,presented,33
+7822,Stimulus,presented,34
+7829,Stimulus,presented,30
+8830,Stimulus,presented,36
+8830,Stimulus,presented,37
+8830,Stimulus,presented,38
+8830,Stimulus,presented,39
+8838,Stimulus,presented,35
+9839,Stimulus,presented,41
+9839,Stimulus,presented,42
+9839,Stimulus,presented,43
+9840,Stimulus,presented,44
+9846,Stimulus,presented,40
+10847,Stimulus,presented,46
+10847,Stimulus,presented,47
+10847,Stimulus,presented,48
+10847,Stimulus,presented,49
+10855,Stimulus,presented,45
+11855,Stimulus,presented,51
+11855,Stimulus,presented,52
+11855,Stimulus,presented,53
+11855,Stimulus,presented,54
+11863,Stimulus,presented,50
+12863,Stimulus,presented,56
+12863,Stimulus,presented,57
+12864,Stimulus,presented,58
+12864,Stimulus,presented,59
+12871,Stimulus,presented,55
+13871,Stimulus,presented,61
+13872,Stimulus,presented,62
+13872,Stimulus,presented,63
+13872,Stimulus,presented,64
+13880,Stimulus,presented,60
+14880,Stimulus,presented,66
+14880,Stimulus,presented,67
+14880,Stimulus,presented,68
+14880,Stimulus,presented,69
+14884,Stimulus,presented,65
+15885,Stimulus,presented,71
+15885,Stimulus,presented,72
+15885,Stimulus,presented,73
+15885,Stimulus,presented,74
+15891,Stimulus,presented,70
+16892,Stimulus,presented,76
+16892,Stimulus,presented,77
+16892,Stimulus,presented,78
+16892,Stimulus,presented,79
+16895,Stimulus,presented,75
+17883,stderr,received,'Traceback (most recent call last):'
+17883,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/kanizsa-rectangle.py", line 68, in <module>'
+17883,stderr,received,'    kanizsa_rectangle(scaling=aspect, rec_scale=rec_sc,circ_scale=circ_sc)'
+17883,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/kanizsa-rectangle.py", line 59, in kanizsa_rectangle'
+17883,stderr,received,'    exp.clock.wait(1000)'
+17883,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 157, in wait'
+17883,stderr,received,'    while (get_time() < start + waiting_time / 1000):'
+17883,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+17883,stderr,received,'KeyboardInterrupt'

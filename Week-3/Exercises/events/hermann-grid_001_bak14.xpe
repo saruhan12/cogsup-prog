@@ -1,0 +1,39 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Thu Sep 25 2025 01:35:09
+#sha1: 8217e0
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1480,design,log,
+#design: #exp: Week3-4
+#design: block_cnt,block_id,trial_cnt,trial_id
+1480,design,logged,
+1480,Experiment,started
+1481,Stimulus,presented,0
+1481,Stimulus,presented,1
+1481,Stimulus,presented,2
+1481,Stimulus,presented,3
+1481,Stimulus,presented,4
+1481,Stimulus,presented,5
+1481,Stimulus,presented,6
+1481,Stimulus,presented,7
+1481,Stimulus,presented,8
+1482,Stimulus,presented,9
+1482,Stimulus,presented,10
+1482,Stimulus,presented,11
+1482,Stimulus,presented,12
+1482,Stimulus,presented,13
+1482,Stimulus,presented,14
+1482,Stimulus,presented,15
+1482,Stimulus,presented,16
+1482,Stimulus,presented,17
+1482,Stimulus,presented,18
+1482,Stimulus,presented,19
+1483,Stimulus,presented,20
+1483,Stimulus,presented,21
+1483,Stimulus,presented,22
+1483,Stimulus,presented,23
+1484,Stimulus,presented,24
+39548,Keyboard,received,32,wait
+39548,Experiment,ended

@@ -1,0 +1,51 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 23:46:44
+#sha1: 935446
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1210,design,log,
+#design: #exp: Week3-3
+#design: block_cnt,block_id,trial_cnt,trial_id
+1210,design,logged,
+1210,Experiment,started
+1211,Stimulus,presented,1
+1211,Stimulus,presented,2
+1211,Stimulus,presented,3
+1211,Stimulus,presented,4
+1212,Stimulus,presented,0
+2213,Stimulus,presented,6
+2213,Stimulus,presented,7
+2213,Stimulus,presented,8
+2213,Stimulus,presented,9
+2221,Stimulus,presented,5
+3221,Stimulus,presented,11
+3222,Stimulus,presented,12
+3222,Stimulus,presented,13
+3222,Stimulus,presented,14
+3229,Stimulus,presented,10
+4230,Stimulus,presented,16
+4230,Stimulus,presented,17
+4230,Stimulus,presented,18
+4231,Stimulus,presented,19
+4238,Stimulus,presented,15
+5238,Stimulus,presented,21
+5239,Stimulus,presented,22
+5239,Stimulus,presented,23
+5239,Stimulus,presented,24
+5246,Stimulus,presented,20
+6247,Stimulus,presented,26
+6247,Stimulus,presented,27
+6247,Stimulus,presented,28
+6247,Stimulus,presented,29
+6254,Stimulus,presented,25
+6381,stderr,received,'Traceback (most recent call last):'
+6381,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/kanizsa-rectangle.py", line 65, in <module>'
+6381,stderr,received,'    kanizsa_rectangle(scaling=aspect, rec_scale=rec_sc,circ_scale=circ_sc)'
+6381,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/kanizsa-rectangle.py", line 56, in kanizsa_rectangle'
+6381,stderr,received,'    exp.clock.wait(1000)'
+6381,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 148, in wait'
+6381,stderr,received,'    while (get_time() < start + (waiting_time - looptime) / 1000):'
+6381,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6381,stderr,received,'KeyboardInterrupt'

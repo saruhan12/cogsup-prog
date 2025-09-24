@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Thu Sep 25 2025 01:14:49
+#sha1: e12ba2
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+943,design,log,
+#design: #exp: Week3-4
+#design: block_cnt,block_id,trial_cnt,trial_id
+943,design,logged,
+943,Experiment,started
+944,Stimulus,presented,0
+949,Stimulus,presented,24
+949,stderr,received,'Traceback (most recent call last):'
+949,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/hermann-grid.py", line 42, in <module>'
+949,stderr,received,'    exp.keyboard.wait()'
+950,stderr,received,'    ^^^'
+950,stderr,received,"NameError: name 'exp' is not defined"

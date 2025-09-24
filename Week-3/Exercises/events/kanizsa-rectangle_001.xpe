@@ -1,0 +1,60 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 23:58:52
+#sha1: 2ebb03
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1227,design,log,
+#design: #exp: Week3-3
+#design: block_cnt,block_id,trial_cnt,trial_id
+1227,design,logged,
+1227,Experiment,started
+1228,Stimulus,presented,1
+1228,Stimulus,presented,2
+1228,Stimulus,presented,3
+1228,Stimulus,presented,4
+1230,Stimulus,presented,0
+2231,Stimulus,presented,6
+2231,Stimulus,presented,7
+2232,Stimulus,presented,8
+2232,Stimulus,presented,9
+2239,Stimulus,presented,5
+3239,Stimulus,presented,11
+3239,Stimulus,presented,12
+3240,Stimulus,presented,13
+3240,Stimulus,presented,14
+3247,Stimulus,presented,10
+4248,Stimulus,presented,16
+4248,Stimulus,presented,17
+4248,Stimulus,presented,18
+4248,Stimulus,presented,19
+4256,Stimulus,presented,15
+5256,Stimulus,presented,21
+5256,Stimulus,presented,22
+5256,Stimulus,presented,23
+5256,Stimulus,presented,24
+5264,Stimulus,presented,20
+6264,Stimulus,presented,26
+6265,Stimulus,presented,27
+6265,Stimulus,presented,28
+6265,Stimulus,presented,29
+6272,Stimulus,presented,25
+7273,Stimulus,presented,31
+7273,Stimulus,presented,32
+7273,Stimulus,presented,33
+7273,Stimulus,presented,34
+7285,Stimulus,presented,30
+8286,Stimulus,presented,36
+8286,Stimulus,presented,37
+8286,Stimulus,presented,38
+8286,Stimulus,presented,39
+8292,Stimulus,presented,35
+8376,stderr,received,'Traceback (most recent call last):'
+8376,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/kanizsa-rectangle.py", line 68, in <module>'
+8376,stderr,received,'    kanizsa_rectangle(scaling=aspect, rec_scale=rec_sc,circ_scale=circ_sc)'
+8376,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-3/Exercises/kanizsa-rectangle.py", line 59, in kanizsa_rectangle'
+8376,stderr,received,'    exp.clock.wait(1000)'
+8376,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 154, in wait'
+8376,stderr,received,'    pygame.event.pump()'
+8376,stderr,received,'KeyboardInterrupt'

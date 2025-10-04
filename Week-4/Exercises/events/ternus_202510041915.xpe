@@ -1,0 +1,14 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Sat Oct 04 2025 19:15:31
+#sha1: 9355d8
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+449,stderr,received,'Traceback (most recent call last):'
+449,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-4/Exercises/ternus.py", line 78, in <module>'
+449,stderr,received,'    run_trial(ISI=isi,color_tags=tag)'
+449,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-4/Exercises/ternus.py", line 53, in run_trial'
+449,stderr,received,'    tags[i].position = c.position'
+449,stderr,received,'    ~~~~^^^'
+449,stderr,received,'IndexError: list index out of range'

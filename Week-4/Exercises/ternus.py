@@ -43,21 +43,27 @@ def make_circles(poses, radius=50,color_tags=False):
 def run_trial(circ_rad=50, ISI = 0, color_tags=False):
     while True:
         positionsA = [(-100+a*(circ_rad+70),0) for a in range(3)]
-        positionsB = [positionsA[0]+(3*circ_rad+70, 0), positionsA[1], positionsA[2]]
+        positionsB = [(positionsA[0][0] + 3*(circ_rad+70), positionsA[0][1]), positionsA[1], positionsA[2]]
         
         circs,tags = make_circles(positionsA, radius=circ_rad, color_tags=color_tags)
         load(tags)
         load(circs)
+        if color_tags:
+            for i, c in enumerate(circs):
+                c.position = positionsA[i]
+                tags[i].position = c.position
         present_for(circs+tags,between_frames=ISI)
         circs,tags = make_circles(positionsB, radius=circ_rad, color_tags=color_tags)
         load(tags)
         load(circs)
+        if color_tags:
+            for i, c in enumerate(circs):
+                c.position = positionsB[i]
+                tags[i].position = c.position
         present_for(circs+tags,between_frames=ISI)
         if exp.keyboard.check(K_SPACE): 
             break
     
-
-
 """ Test functions """
 exp = design.Experiment()
 

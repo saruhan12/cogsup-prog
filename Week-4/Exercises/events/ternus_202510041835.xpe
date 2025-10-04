@@ -1,0 +1,24 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Sat Oct 04 2025 18:35:05
+#sha1: 93cb9d
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+465,stderr,received,'Traceback (most recent call last):'
+465,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-4/Exercises/ternus.py", line 69, in <module>'
+465,stderr,received,'    run_trial(ISI=isi,color_tags=tag)'
+465,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-4/Exercises/ternus.py", line 49, in run_trial'
+465,stderr,received,'    circs = make_circles(pos, radius=circ_rad, color_tags=color_tags)'
+465,stderr,received,'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+465,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-4/Exercises/ternus.py", line 39, in make_circles'
+465,stderr,received,'    circles=[stimuli.Circle(radius=radius,colour=(0,0,255),position=pos) for _, pos in zip(range(3),poses)]'
+465,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+465,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_circle.py", line 51, in __init__'
+466,stderr,received,'    Ellipse.__init__(self, [radius, radius], colour, line_width,'
+466,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_ellipse.py", line 43, in __init__'
+466,stderr,received,'    Visual.__init__(self, position)'
+466,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 237, in __init__'
+466,stderr,received,'    self._position = list(position)'
+466,stderr,received,'                     ^^^^^^^^^^^^^^'
+466,stderr,received,"TypeError: 'int' object is not iterable"

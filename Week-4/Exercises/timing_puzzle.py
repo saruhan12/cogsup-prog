@@ -12,10 +12,13 @@ fixation.present()
 t0 = exp.clock.time
 
 exp.clock.wait(1000)
-
-text.present()
+#text.present() is not spontaneous so presenting before the 
+#calculation of the fixation time causes it to appear as 1.008 seconds
+#text.present()
 t1 = exp.clock.time
 fix_duration = (t1 - t0)/1000
+#presenting the text after fixation time is calculated doesnt interfere with it
+text.present()
 
 exp.clock.wait(1000)
 

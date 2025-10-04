@@ -1,14 +1,24 @@
-from expyriment import design, control, stimuli
+from expyriment import design, control, stimuli, misc
 import random
 
 def load(stims):
-    pass
+    for stim in stims:
+        stim.preload()
+    
 
 def timed_draw(stims):
-    pass
+    clock = misc.Clock()
+    t0 = clock.time
+    for stim in stims:
+        stim.present()
+    t1 = clock.time
+    return t1-t0
     # return the time it took to draw
 
 def present_for(stims, t=1000):
+    clock = misc.Clock()
+    time = timed_draw(stims)
+    clock.wait(t-time)
     pass
 
 

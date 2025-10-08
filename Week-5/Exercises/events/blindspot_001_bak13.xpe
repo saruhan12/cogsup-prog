@@ -1,0 +1,23 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 17:11:16
+#sha1: a845e9
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1306,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1306,design,logged,
+1306,Experiment,started
+1308,Stimulus,presented,0
+1310,Stimulus,presented,1
+1719,Keyboard,received,49,wait
+1719,stderr,received,'Traceback (most recent call last):'
+1719,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-5/Exercises/blindspot.py", line 46, in <module>'
+1719,stderr,received,'    run_trial()'
+1719,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-5/Exercises/blindspot.py", line 36, in run_trial'
+1719,stderr,received,'    circle.scale((0.9,0.9))'
+1719,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1317, in scale'
+1719,stderr,received,'    raise RuntimeError(Visual._exception_message.format('
+1719,stderr,received,'RuntimeError: Cannot call scale() on preloaded or compressed stimulus!'

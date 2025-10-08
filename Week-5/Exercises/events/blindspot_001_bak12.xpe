@@ -1,0 +1,116 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 17:08:43
+#sha1: 812a65
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1264,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1264,design,logged,
+1264,Experiment,started
+1266,Stimulus,presented,0
+1269,Stimulus,presented,1
+1769,Keyboard,received,1073741903,wait
+1769,Stimulus,presented,0
+1778,Stimulus,presented,1
+2769,Keyboard,received,1073741904,wait
+2769,Stimulus,presented,0
+2778,Stimulus,presented,1
+2946,Keyboard,received,1073741904,wait
+2946,Stimulus,presented,0
+2953,Stimulus,presented,1
+3108,Keyboard,received,1073741904,wait
+3108,Stimulus,presented,0
+3111,Stimulus,presented,1
+3269,Keyboard,received,1073741904,wait
+3269,Stimulus,presented,0
+3278,Stimulus,presented,1
+3418,Keyboard,received,1073741904,wait
+3418,Stimulus,presented,0
+3419,Stimulus,presented,1
+3525,Keyboard,received,1073741906,wait
+3525,Stimulus,presented,0
+3528,Stimulus,presented,1
+3723,Keyboard,received,1073741906,wait
+3723,Stimulus,presented,0
+3728,Stimulus,presented,1
+3910,Keyboard,received,1073741906,wait
+3910,Stimulus,presented,0
+3911,Stimulus,presented,1
+4131,Keyboard,received,1073741904,wait
+4132,Stimulus,presented,0
+4136,Stimulus,presented,1
+4301,Keyboard,received,1073741904,wait
+4301,Stimulus,presented,0
+4303,Stimulus,presented,1
+4461,Keyboard,received,1073741906,wait
+4461,Stimulus,presented,0
+4469,Stimulus,presented,1
+4639,Keyboard,received,1073741904,wait
+4639,Stimulus,presented,0
+4645,Stimulus,presented,1
+4786,Keyboard,received,1073741906,wait
+4786,Stimulus,presented,0
+4794,Stimulus,presented,1
+4999,Keyboard,received,1073741906,wait
+4999,Stimulus,presented,0
+5003,Stimulus,presented,1
+5254,Keyboard,received,1073741904,wait
+5254,Stimulus,presented,0
+5261,Stimulus,presented,1
+5500,Keyboard,received,1073741904,wait
+5500,Stimulus,presented,0
+5503,Stimulus,presented,1
+5779,Keyboard,received,1073741904,wait
+5779,Stimulus,presented,0
+5786,Stimulus,presented,1
+6025,Keyboard,received,1073741906,wait
+6025,Stimulus,presented,0
+6028,Stimulus,presented,1
+6269,Keyboard,received,1073741904,wait
+6269,Stimulus,presented,0
+6278,Stimulus,presented,1
+6516,Keyboard,received,1073741906,wait
+6516,Stimulus,presented,0
+6519,Stimulus,presented,1
+6763,Keyboard,received,1073741904,wait
+6763,Stimulus,presented,0
+6769,Stimulus,presented,1
+7708,Keyboard,received,1073741903,wait
+7708,Stimulus,presented,0
+7711,Stimulus,presented,1
+7908,Keyboard,received,1073741904,wait
+7908,Stimulus,presented,0
+7911,Stimulus,presented,1
+8150,Keyboard,received,1073741903,wait
+8150,Stimulus,presented,0
+8153,Stimulus,presented,1
+8378,Keyboard,received,1073741905,wait
+8378,Stimulus,presented,0
+8386,Stimulus,presented,1
+8767,Keyboard,received,1073741903,wait
+8767,Stimulus,presented,0
+8769,Stimulus,presented,1
+9008,Keyboard,received,1073741905,wait
+9008,Stimulus,presented,0
+9011,Stimulus,presented,1
+9133,Keyboard,received,1073741904,wait
+9133,Stimulus,presented,0
+9136,Stimulus,presented,1
+9384,Keyboard,received,1073741906,wait
+9384,Stimulus,presented,0
+9386,Stimulus,presented,1
+9626,Keyboard,received,1073741903,wait
+9626,Stimulus,presented,0
+9628,Stimulus,presented,1
+10051,Keyboard,received,50,wait
+10051,stderr,received,'Traceback (most recent call last):'
+10051,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-5/Exercises/blindspot.py", line 46, in <module>'
+10051,stderr,received,'    run_trial()'
+10051,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-5/Exercises/blindspot.py", line 38, in run_trial'
+10051,stderr,received,'    circle.scale((1.2,1.2))'
+10051,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1317, in scale'
+10051,stderr,received,'    raise RuntimeError(Visual._exception_message.format('
+10051,stderr,received,'RuntimeError: Cannot call scale() on preloaded or compressed stimulus!'

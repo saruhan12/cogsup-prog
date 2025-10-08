@@ -1,0 +1,22 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 17:20:22
+#sha1: d984f7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+971,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+971,design,logged,
+971,Experiment,started
+973,Stimulus,presented,0
+977,Stimulus,presented,1
+1269,Keyboard,received,50,wait
+1269,stderr,received,'Traceback (most recent call last):'
+1269,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-5/Exercises/blindspot.py", line 46, in <module>'
+1269,stderr,received,'    run_trial()'
+1269,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-5/Exercises/blindspot.py", line 38, in run_trial'
+1269,stderr,received,'    circle = make_circle(radius=radius*1.5)'
+1269,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1269,stderr,received,"TypeError: make_circle() got an unexpected keyword argument 'radius'"

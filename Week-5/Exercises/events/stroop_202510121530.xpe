@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Sun Oct 12 2025 15:30:40
+#sha1: 863b6c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Aug 11 21:15:09 PDT 2025; root:xnu-11417.140.69.701.11~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+463,stderr,received,'Traceback (most recent call last):'
+463,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-5/Exercises/stroop.py", line 11, in <module>'
+463,stderr,received,'    code_color_match ={'
+463,stderr,received,'                      ^'
+463,stderr,received,"TypeError: unhashable type: 'Colour'"

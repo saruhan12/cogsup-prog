@@ -1,0 +1,79 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Sun Oct 12 2025 15:35:42
+#sha1: 7f0ba5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Aug 11 21:15:09 PDT 2025; root:xnu-11417.140.69.701.11~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+965,design,log,
+#design: #exp: Stroop
+#design: #dvn: trial block,trial number,trial type,word,text color,RTs(ms),accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+965,design,logged,
+965,Experiment,started
+974,Stimulus,presented,1
+1634,Keyboard,received,32,wait
+1640,Stimulus,presented,0
+2149,Stimulus,presented,2
+3226,Keyboard,received,49,wait
+3232,Stimulus,presented,0
+3740,Stimulus,presented,3
+3873,Keyboard,received,49,wait
+3873,Stimulus,presented,0
+4382,Stimulus,presented,4
+4582,Keyboard,received,49,wait
+4590,Stimulus,presented,0
+5099,Stimulus,presented,5
+5119,Keyboard,received,49,wait
+5124,Stimulus,presented,0
+5632,Stimulus,presented,6
+5789,Keyboard,received,49,wait
+5790,Stimulus,presented,0
+6299,Stimulus,presented,7
+6311,Keyboard,received,49,wait
+6315,Stimulus,presented,0
+6824,Stimulus,presented,8
+6845,Keyboard,received,49,wait
+6848,Stimulus,presented,0
+7357,Stimulus,presented,9
+7373,Keyboard,received,49,wait
+7382,Stimulus,presented,0
+7890,Stimulus,presented,10
+7899,Keyboard,received,49,wait
+7907,Stimulus,presented,0
+8415,Stimulus,presented,11
+8598,Keyboard,received,49,wait
+8607,Stimulus,presented,12
+8768,Keyboard,received,49,wait
+8773,Stimulus,presented,0
+9282,Stimulus,presented,13
+9351,Keyboard,received,49,wait
+9357,Stimulus,presented,0
+9865,Stimulus,presented,14
+9881,Keyboard,received,49,wait
+9882,Stimulus,presented,0
+10390,Stimulus,presented,15
+10398,Keyboard,received,49,wait
+10407,Stimulus,presented,0
+10915,Stimulus,presented,16
+11080,Keyboard,received,49,wait
+11082,Stimulus,presented,0
+11590,Stimulus,presented,17
+11603,Keyboard,received,49,wait
+11607,Stimulus,presented,0
+12115,Stimulus,presented,18
+12160,Keyboard,received,49,wait
+12165,Stimulus,presented,0
+12674,Stimulus,presented,19
+12696,Keyboard,received,49,wait
+12698,Stimulus,presented,0
+13207,Stimulus,presented,20
+13247,Keyboard,received,49,wait
+13248,Stimulus,presented,0
+13757,Stimulus,presented,21
+13780,Keyboard,received,49,wait
+13782,Stimulus,presented,0
+14290,Stimulus,presented,22
+14307,Keyboard,received,49,wait
+14308,Experiment,ended
+14308,Data,saved

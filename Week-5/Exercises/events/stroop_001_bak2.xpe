@@ -1,0 +1,23 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Sun Oct 12 2025 15:22:50
+#sha1: 3f26b1
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Aug 11 21:15:09 PDT 2025; root:xnu-11417.140.69.701.11~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1270,design,log,
+#design: #exp: Stroop
+#design: #dvn: trial block,trial number,trial type,word,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+1270,design,logged,
+1270,Experiment,started
+1282,Stimulus,presented,1
+2153,Keyboard,received,32,wait
+2156,Stimulus,presented,0
+2658,stderr,received,'Traceback (most recent call last):'
+2658,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-5/Exercises/stroop.py", line 59, in <module>'
+2658,stderr,received,'    run_trial()'
+2658,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-5/Exercises/stroop.py", line 48, in run_trial'
+2658,stderr,received,'    color_text.presesnt(True,True)'
+2658,stderr,received,'    ^^^^^^^^^^^^^^^^^^^'
+2658,stderr,received,"AttributeError: 'TextLine' object has no attribute 'presesnt'. Did you mean: 'present'?"

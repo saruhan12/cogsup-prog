@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.12.12), .xpe-file, coding: UTF-8
+#date: Sun Nov 02 2025 20:55:38
+#sha1: 9609c7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Saruhans-MacBook-Pro.local', release='24.6.0', version='Darwin Kernel Version 24.6.0: Mon Aug 11 21:15:09 PDT 2025; root:xnu-11417.140.69.701.11~1/RELEASE_ARM64_T6041', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+470,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x1326d44a0>'
+470,stderr,received,'Traceback (most recent call last):'
+470,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 266, in __del__'
+471,stderr,received,'    if self._compression_filename is not None:'
+471,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+471,stderr,received,"AttributeError: 'Canvas' object has no attribute '_compression_filename'"
+471,stderr,received,'Traceback (most recent call last):'
+471,stderr,received,'  File "/Users/saru/Local_Work/cogsup/experimental_approach/cogsup-prog/Week-2/Exercises/circle.py", line 15, in <module>'
+471,stderr,received,'    circle = stimuli.Canvas()'
+471,stderr,received,'             ^^^^^^^^^^^^^^^^'
+471,stderr,received,"TypeError: Canvas.__init__() missing 1 required positional argument: 'size'"
